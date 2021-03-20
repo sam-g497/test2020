@@ -49,13 +49,13 @@ to pointer and background made transparent**/
 .button2:before {
   content: "";
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
-  background-color: #0880f0;
+  background-color: #68042a;
   height: 100%;
   width: 100%;
   z-index: -1;
-  transform-origin: bottom left;
+  transform-origin: top right;
   transform: translateX(-20rem);
   transition: transform 0.5s;
 }
@@ -68,13 +68,14 @@ to pointer and background made transparent**/
   transform: translateX(0px);
 }
 /**flex container creates a grid for the elements inside
-this one is  **/
+this one sets content to a row, items are stretched in the container **/
 .flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: stretch;
   align-content: space-between;
+  padding: 20px;
 }
 .flex-container2 {
   display: flex;
@@ -83,10 +84,17 @@ this one is  **/
   justify-content: center;
   padding: 20px;
 }
+/** sets the width of p1 to 100px**/
 .p1 {
   width: 100px;
 }
+/**sets the h1 to a similar color of the logo and also changes the font only for the h1**/
 h1 {
   color: rgb(207, 35, 35);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main {
+  align-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
