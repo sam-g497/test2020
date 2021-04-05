@@ -40,7 +40,7 @@ export default function App() {
             you can find out!
           </p>
           <p>
-            <button className="button button2">Buy Now</button>
+            <button>Buy Now</button>
           </p>
         </article>
       </main>
