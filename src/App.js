@@ -20,7 +20,9 @@ export default function App() {
           <p>
             Welcome to the Red Lamp Shop, this is where you can purchase the
             exquisite red lamp for only £5. This is an absolute bargain and
-            there is nothing to pay on delivery!.
+            there is nothing to pay on delivery!. For more information please
+            check out our details page. Below you can see the luxurious lamp on
+            display whilst being turned on.
           </p>
         </section>
 
@@ -40,7 +42,7 @@ export default function App() {
             you can find out!
           </p>
           <p>
-            <button>Buy Now</button>
+            <button className="button button2">Buy Now</button>
           </p>
         </article>
       </main>
